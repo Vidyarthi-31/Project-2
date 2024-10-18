@@ -1,3 +1,66 @@
-p{
-    color: aliceblue;
+/* Reset some default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Header section */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #e2e8ee;
+    color: rgb(16, 16, 16);
+}
+
+/* Left side - Logo/Name */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Right side - Login and Sign Up */
+.auth-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.auth-buttons a {
+    text-decoration: none;
+    color: rgb(27, 26, 26);
+    background-color: #dbdfe3;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.auth-buttons a:hover {
+    background-color: #f5f7f9;
+}
+
+/* Navigation bar below the header */
+nav {
+    display: flex;
+    justify-content: center;
+   
+}
+
+nav a {
+    margin: 0 20px;
+    color: rgb(29, 28, 28);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: #edf2f7;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+

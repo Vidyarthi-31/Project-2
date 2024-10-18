@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthcare Platform</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="surgery.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <!-- Left side: Website name/logo -->
+        <div class="logo">Healthcare Platform</div>
+    
+         <nav>
+            <a href="#">Find Doctors</a>
+            <a href="#">Lab Tests</a>
+            <a href="surgery.html">Surgeries</a>
+            <a href="#">Medicine</a>
+        </nav>
+    
+        <!-- Right side: Login and Sign Up buttons -->
+        <div class="auth-buttons">
+            <a href="#">Login/Sign Up</a>
+            
+        </div>
+       
+    </header>
+
+    <div class="surgery-section">
+        <!-- Left side: Company info -->
+        <div class="company-info">
+            <h1>health care</h1>
+    
+            <!-- Horizontal lines and surgery title -->
+            <div class="surgery-title-container">
+                <hr>
+                <div class="surgery-title">S-U-R-G-E-R-Y</div>
+                <hr>
+            </div>
+    
+            <p>We offer a wide range of surgical procedures with the best medical professionals to ensure your health is in safe hands. Our team is dedicated to providing top-notch care, personalized treatment plans, and excellent post-surgery support.</p>
+            <p>Contact us for any inquiries or to schedule an appointment.</p>
+            <p class="contact-number">Contact Number: +91-8696545232</p>
+        </div>
+    
+        <!-- Right side: Doctor photo -->
+        <div class="doctor-photo">
+            <img src="doc.png" alt="Doctor Image"> <!-- Replace with actual doctor image -->
+        </div>
+    </div>
+    
+    <!-- New section for popular surgeries and consultation form -->
+    <div class="additional-section">
+        <!-- Left: Popular surgeries -->
+        <div class="popular-surgeries">
+            <h2>Popular Surgeries</h2>
+    
+            <div class="surgery-item">
+                <img src="Total_Knee_Replacement.png" alt="Surgery 1"> <!-- Replace with actual image -->
+                <p>Knee Replacement</p>
+            </div>
+    
+            <div class="surgery-item">
+                <img src="Lasik.webp" alt="Surgery 2"> <!-- Replace with actual image -->
+                <p>Heart Bypass</p>
+            </div>
+    
+            <div class="surgery-item">
+                <img src="Hair_transplant.png" alt="Surgery 3"> <!-- Replace with actual image -->
+                <p>Hair Replacement</p>
+            </div>
+    
+            <div class="surgery-item">
+                <img src="Varicose-vein.webp" alt="Surgery 4"> <!-- Replace with actual image -->
+                <p>Spinal Fusion</p>
+            </div>
+        </div>
+    
+        <!-- Right: Book your consultation form -->
+        <div class="consultation-form">
+            <h2>Book Your Consultation Today</h2>
+    
+            <form>
+                <label for="location">Select Location</label>
+                <select id="location" name="location">
+                    <option value="city1">Banglore</option>
+                    <option value="city2"> Delhi</option>
+                    <option value="city3"> Mumbai</option>
+                    <option value="city3"> Hydrabad</option>
+
+                </select>
+    
+                <label for="ailment">Select Ailment</label>
+                <select id="ailment" name="ailment">
+                    <option value="ailment1">Ailment 1</option>
+                    <option value="ailment2">Ailment 2</option>
+                    <option value="ailment3">Ailment 3</option>
+                </select>
+    
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name">
+    
+                <label for="contact">Contact Number</label>
+                <input type="text" id="contact" name="contact" placeholder="Enter your contact number">
+    
+                <button type="submit">Book Appointment</button>
+            </form>
+        </div>
+    </div>
+
+
+</body>
+</html>

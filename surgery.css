@@ -1,0 +1,169 @@
+ /* Basic body styling */
+ body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container for the section */
+.surgery-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+    width: 80%;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 255, 0.711);
+    color: white;
+}
+
+/* Left side content: company info */
+.company-info {
+    width: 60%;
+}
+
+.company-info h1 {
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+/* Flex container for horizontal lines and surgery text */
+.surgery-title-container {
+    display: flex;
+    align-items: center;
+    margin: 2px auto 8px 0;
+}
+
+/* Horizontal line styling */
+.surgery-title-container hr {
+    flex-grow: 0.05;
+    border: none;
+    border-top: 2px solid #ddd;
+    margin: 0 10px;
+}
+
+/* Styling for the surgery title */
+.surgery-title {
+    font-size: 10px;
+    font-weight: lighter;
+    color: #f8f3f3;
+    white-space: nowrap; /* Prevents breaking the word */
+}
+
+.company-info p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.company-info .contact-number {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Right side content: doctor photo */
+.doctor-photo {
+    width: 35%;
+    text-align: right;
+}
+
+.doctor-photo img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* New section for popular surgeries and booking form */
+.additional-section {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 50px auto;
+}
+
+/* Left side: Popular surgeries */
+.popular-surgeries {
+    width: 48%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.popular-surgeries h2 {
+    font-size: 22px;
+    color: #0073e6;
+    margin-bottom: 20px;
+}
+
+.surgery-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.surgery-item img {
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+    margin-right: 15px;
+}
+
+.surgery-item p {
+    font-size: 18px;
+    color: #333;
+}
+
+/* Right side: Book consultation form */
+.consultation-form {
+    position: sticky;
+    top: 0; /* It will stick to the top of the page */
+    z-index: 100; /* Ensure it's on top of other content */
+    width: 48%; /* Keep the width intact */
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.consultation-form h2 {
+    font-size: 22px;
+    color: #0073e6;
+    margin-bottom: 20px;
+}
+
+.consultation-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.consultation-form label {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.consultation-form input,
+.consultation-form select {
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.consultation-form button {
+    padding: 12px;
+    font-size: 16px;
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.consultation-form button:hover {
+    background-color: #005bb5;
+}

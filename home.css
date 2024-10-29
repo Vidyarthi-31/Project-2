@@ -398,7 +398,7 @@ section_doctor{
   border-radius: 20px;
   height: 400px; /* Set a consistent height for cards */
   width: 150px; /* Set a smaller width for cards */
-  margin: 10px 10px; /* Adjust margin for spacing */
+  margin: 1px 1px; /* Adjust margin for spacing */
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -478,35 +478,32 @@ section .card .image img {
   background: #6616d0;
 }
 
-.swiper-pagination {
-  position: absolute;
-  top:20px;
-  left: 0;
-  width: 100%;
-  text-align: center;
-}
-
-.swiper-pagination-bullet {
-  height: 7px;
-  width: 26px;
-  border-radius: 25px;
-  background: white;
-}
-
+.mySwiper {
+    max-width: 1200px; /* Adjust as needed */
+    margin: 0 auto;
+    padding: 0 20px; /* Adds padding on the sides */
+  }
+  
+  .mySwiper .swiper-slide {
+    width: calc((100% - 90px) / 4); /* Adjust spacing between cards */
+    max-width: 300px; /* Optional: to limit maximum card size */
+  }
+  
 .swiper-button-next,
 .swiper-button-prev {
   opacity: 0.7;
   color: white;
   transition: all 0.3s ease;
-  top: 50%; /* Keep buttons centered vertically */
+  top: 50%; /* Center vertically */
+  transform: translateY(-50%); /* Adjust for perfect centering */
 }
 
 .swiper-button-next {
-  right: -40px; /* Adjust distance from swiper */
+  right: -10px; /* Adjust position closer to right end */
 }
 
 .swiper-button-prev {
-  left: -40px; /* Adjust distance from swiper */
+  left: -10px; /* Adjust position closer to left end */
 }
 
 .swiper-button-next:hover,
